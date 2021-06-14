@@ -1,0 +1,19 @@
+## Readme
+This terraform scripts will create 1 webserver and install Apache, 1 App Server and 1 Postgres RDS Instance
+Prereqs:
+*) AWS Account
+*) Terraform 11
+*) set PATH variable for terraform home
+
+
+Execution:
+*) Download aws-resource folder
+*) Move to aws-resource\environments\dev
+*) Populate Accesskey & Secret Keys in main.tf
+*) Open command prompt in same path
+*) Run below commands
+terraform init
+terraform plan
+terraform apply
+
+*) Once 3 resoures created you can able to access Apache URL from webserver IP  HTTP://<IP ADDRESS>:80/

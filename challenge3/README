@@ -1,0 +1,12 @@
+
+Prereqs:
+ 
+*) Python 3
+*) Set python installation path in PATH environmnet variable
+
+
+Execution:
+
+*) Download get_value.py
+*) Execute file
+  python get_value.py

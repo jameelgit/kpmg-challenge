@@ -1,0 +1,4 @@
+### Readme
+1) Configure AWS cli environment using aws configure 
+2) Execute get-details-ec2-cli.sh to get ec2 metadata in json format as as well as specific parameters like Instance ID, IP address ..etc
+3) Execute get-details-ec2-metadata.sh which uses ec2-metadata utility to retrieve specific ec2 parameters metadata
